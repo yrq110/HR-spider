@@ -4,7 +4,7 @@ crawl data from Internet for HouseRadar
 ##Ability
 crawl data of rental room from [58](http://bj.58.com/chuzu/) and [Ganji](http://bj.ganji.com/fang1/).
 
-##Envirnoment
+##Env
 * Windows7_64
 * python 2.7
 * scrapy 1.0.1
@@ -19,7 +19,7 @@ crawl data of rental room from [58](http://bj.58.com/chuzu/) and [Ganji](http://
 * `json2txt.py` - convert json to text.
 * `jsonQuChong.py` - filter duplicate data in json file according to value of `title`.
 
-##Use
+##Run
 1.Set your own mongo server in `house_pipe.py`and`settings.py`.
 
 >Note:It's very importment, or you can store data locally.
